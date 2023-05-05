@@ -31,13 +31,6 @@ html {
   border-radius: 50%;
 }
 
-
-@media screen and (min-width: 1200px) {
-  #title {
-    height: 91.5vh;
-  }
-  
-  #footer {
-    height: 310px;
-  }
+.features {
+  margin-top: 5px;
 }
