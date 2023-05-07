@@ -10,7 +10,7 @@ COLORS
     box-sizing: border-box;
 }
 .section {
-    height: 100vh;
+    height: 130vh;
     color: #002A32;
 }
 
@@ -21,11 +21,12 @@ COLORS
 
 .section.-pastime {
     background-color: #FF5F5F;
-    height: 115vh;
+    height: 165vh;
 }
 
 .section.-skills {
     background-color: #4ECdC4;
+    height: 100vh;
 }
 .title {
     font-size: 64px;
@@ -51,6 +52,7 @@ COLORS
 .content {
     display: flex;
     flex-direction: column;
+    width: 280px;
 }
 .subtitle {
     font-size: 36px;
@@ -75,11 +77,19 @@ COLORS
 }
 
 .skill {
-    width: 90%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250 250px;
+    gap: 20px;
+}
+
+.html, .css, .js, .react, .node, .python {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: flex-end;
+    gap: 10px;
+    padding-bottom: 100px;
+    position: relative;
+    left: 90%;
+    top: 60%;
 }
 
 .icon {
@@ -89,7 +99,7 @@ COLORS
 
 .footer {
     height: 100px;
-    background-color: #002A32;
+    background-color: #FF5F5F;
 }
 
 .social {
@@ -97,7 +107,8 @@ COLORS
 }
 
 .icon.-social {
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     margin-left: 50px;
+    margin-top: 25px;
 }
