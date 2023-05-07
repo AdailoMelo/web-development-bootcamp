@@ -10,7 +10,7 @@ COLORS
     box-sizing: border-box;
 }
 .section {
-    height: 130vh;
+    height: 100vh;
     color: #002A32;
 }
 
@@ -21,7 +21,7 @@ COLORS
 
 .section.-pastime {
     background-color: #FF5F5F;
-    height: 165vh;
+    height: 115vh;
 }
 
 .section.-skills {
