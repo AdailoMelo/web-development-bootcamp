@@ -10,7 +10,7 @@ COLORS
     box-sizing: border-box;
 }
 .section {
-    height: 100vh;
+    height: 85vh;
     color: #002A32;
 }
 
@@ -41,6 +41,7 @@ COLORS
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    margin: auto 0px;
 }
 
 .card-pastime {
