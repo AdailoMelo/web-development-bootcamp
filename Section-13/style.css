@@ -32,6 +32,8 @@ COLORS
     font-size: 64px;
     padding-top: 50px;
     text-align: center;
+    color: white;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.407);
 }
 
 .card-profile {
