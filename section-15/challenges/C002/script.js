@@ -11,8 +11,8 @@ function main(){
     <h3>${chance} %</h3>`;
 
     if (chance > 60) {
-        res.innerHTML += `<P>You have a good chance with this person</p>`;
+        res.innerHTML += `<P class="chance">You have a good chance with this person</p>`;
     } else {
-        res.innerHTML += `<p>You don't have a really good chance with this person</p>`
+        res.innerHTML += `<p class="chance">You don't have a really good chance with this person</p>`
     }
 }

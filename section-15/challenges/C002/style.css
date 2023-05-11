@@ -2,7 +2,7 @@ body {
     background-color: #FFA4BA;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, .chance {
     text-align: center;
 }
 
