@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#res {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+label, input{
+    margin-bottom: 20px;
+}
