@@ -1,0 +1,18 @@
+body {
+    background-color: #FFA4BA;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h3 {
+    color: #FD0206;
+    font-size: 3rem;
+}
+
+label {
+    margin: 0px 25px 10px 25px;
+    font-weight: bold;
+}
+
