@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+}
+
+#res {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #FD0206;
+    font-size: 3rem;
+}
+
+label {
+    margin: 0px 25px 10px 25px;
+    font-weight: bold;
+}
+
