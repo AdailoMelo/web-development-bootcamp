@@ -1,0 +1,26 @@
+body {
+    background-color: #333;
+}
+
+h1 {
+    color: gray;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.299);
+}
+
+.btn {
+    background-color: cyan;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.321);
+    cursor: pointer;
+}
+
+#res {
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
