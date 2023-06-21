@@ -1,0 +1,27 @@
+body {
+    background-color: #333;
+}
+
+.btn {
+    background-color: cyan;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #333;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.321);
+    cursor: pointer;
+}
+
+#res {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
